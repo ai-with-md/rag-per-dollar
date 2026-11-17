@@ -10,7 +10,7 @@
 
 ## The study
 
-A fixed grid of 54 configurations, every combination of:
+A fixed grid of 54 configurations, every combination of the levels below. All 54 are scored on retrieval. Answers are generated for 24 of them (128 and 512 tokens, keyword search and bge-base), to keep the local answer run near 7.5 hours.
 
 | Choice | Levels |
 |---|---|
@@ -19,7 +19,7 @@ A fixed grid of 54 configurations, every combination of:
 | Reranker | none, or bge-reranker-base |
 | Passages given to the model | 3, 5, 10 |
 
-Answers come from one model, Gemma 4 E4B, run locally. Every configuration is scored on retrieval, answer accuracy and cost per 1,000 answers, with bootstrap intervals.
+Answers come from one model, Gemma 4 E4B, run locally. Configurations are scored on retrieval, answer accuracy and cost per 1,000 answers, with bootstrap intervals.
 
 ## Notebooks
 
@@ -56,7 +56,7 @@ Run the tests with `pytest`. They need no downloaded data or models.
 ragdecisions/   small helpers: data loading, chunking, text matching, the fixed grid, chart style
 notebooks/      one notebook per question, outputs saved
 plans/          the analysis plan, written before any answers
-results/        the fixed question sample, per-question retrieval scores and timings
+results/        the fixed question and answer samples, per-question retrieval scores and timings
 tests/          unit tests, run on every push
 docs/figures/   charts used in this README
 scripts/        data download, retrieval, and answer generation

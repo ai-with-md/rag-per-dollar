@@ -43,3 +43,12 @@ bge-small-en-v1.5 is scored on retrieval only. Everything else is fixed: one pro
 ## What this cannot tell
 
 One generator model, two English datasets with short answers, and a fixed prompt. Results may not hold for long-form answers, other domains, much larger models, or tuned prompts. The README will say so next to the findings.
+
+## Amendment, November 17, 2026 (added later, before any answers were generated)
+
+A timing check of 50 answers, not scored, put the full answer run at about 31 hours on an Apple M4. To bring it to about 7.5 hours, answers are generated for a smaller grid and sample. Retrieval is still scored on the full grid and sample, as above.
+
+- **Answer grid: 24 of the 54 configurations.** Chunk sizes 128 and 512, keyword search and bge-base-en-v1.5, with and without the reranker, and 3, 5 and 10 passages. 256-token chunks and all-MiniLM-L6-v2 are scored on retrieval only, like bge-small-en-v1.5. Retrieval had shown 256 tokens sitting between 128 and 512 on both datasets, and MiniLM behind bge-base on both.
+- **Answer sample: 150 MultiHop-RAG questions and 100 Natural Questions,** drawn from the question sample with seed 7, keeping each type's share, and saved in `results/answer_sample.csv`.
+- Findings 2, 4 and 5 use the 24 answer configurations. The hand check of 150 answers is unchanged.
+- **What it costs:** for one configuration against another, the smallest detectable difference in accuracy rises from about 7 to about 9 points on MultiHop-RAG and from about 8 to about 11 on Natural Questions (notebook 01). Findings that average a choice over its other settings pool several such comparisons.

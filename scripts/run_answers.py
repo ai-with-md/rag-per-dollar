@@ -1,13 +1,16 @@
-"""Generate answers for every sampled question and configuration with the local model.
+"""Generate answers with the local model for the answer sample and the 24 answer configurations.
 
 Usage: python scripts/run_answers.py multihop_rag   (or natural_questions)
 
-Needs Ollama running with the model in ragdecisions.grid.GENERATOR, and
-scripts/build_retrieval.py finished. Every answer is cached in
-cache/answers/<dataset>.jsonl as soon as it arrives, so the run can be
-stopped and restarted at any time and reruns are free. Questions are the
-outer loop, so a partial run already covers the whole grid for the
-questions it reached. Writes results/answers_<dataset>.csv at the end.
+The questions are in results/answer_sample.csv (written by notebook 01) and
+the configurations in ragdecisions.grid. Needs Ollama running with the model
+in ragdecisions.grid.GENERATOR, and scripts/build_retrieval.py finished.
+Takes about 4.5 hours for MultiHop-RAG and 3 for Natural Questions on an
+Apple M4. Every answer is cached in cache/answers/<dataset>.jsonl as soon as
+it arrives, so the run can be stopped and restarted at any time and reruns
+are free. Questions are the outer loop, so a partial run already covers the
+whole grid for the questions it reached. Writes results/answers_<dataset>.csv
+at the end.
 """
 
 import hashlib
@@ -26,7 +29,7 @@ ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(ROOT))
 
 from ragdecisions.data import RESULTS_DIR, load_corpus, load_questions  # noqa: E402
-from ragdecisions.grid import CHUNK_SIZES, GENERATOR, RERANK, RETRIEVERS, TOP_K  # noqa: E402
+from ragdecisions.grid import ANSWER_CHUNK_SIZES, ANSWER_RETRIEVERS, GENERATOR, RERANK, TOP_K  # noqa: E402
 from ragdecisions.prompts import build_closed_book_prompt, build_prompt, passage_header  # noqa: E402
 
 CACHE = ROOT / "cache"
@@ -50,14 +53,14 @@ def prompt_key(prompt: str) -> str:
 
 def main(dataset: str) -> None:
     corpus = load_corpus(dataset).set_index("doc_id")
-    sample_ids = pd.read_csv(RESULTS_DIR / "question_sample.csv")
+    sample_ids = pd.read_csv(RESULTS_DIR / "answer_sample.csv")
     questions = load_questions(dataset).set_index("qid")
     questions = questions.loc[sample_ids.loc[sample_ids["dataset"] == dataset, "qid"]]
 
     chunks, rankings = {}, {}
-    for size in CHUNK_SIZES:
+    for size in ANSWER_CHUNK_SIZES:
         chunks[size] = pd.read_parquet(CACHE / dataset / f"chunks_{size}.parquet")
-        for key in RETRIEVERS:
+        for key in ANSWER_RETRIEVERS:
             for reranked in RERANK:
                 ranked = pd.read_parquet(CACHE / dataset / f"{'rerank' if reranked else 'top'}_{key}_{size}.parquet")
                 rankings[size, key, reranked] = ranked.sort_values(["qid", "rank"]).groupby("qid")["chunk"].apply(list)
@@ -87,8 +90,8 @@ def main(dataset: str) -> None:
     for n, (qid, q) in enumerate(questions.iterrows(), start=1):
         rows.append({"qid": qid, "chunk": 0, "retriever": "none", "rerank": False, "k": 0,
                      **answer(build_closed_book_prompt(q["question"]))})
-        for size in CHUNK_SIZES:
-            for key in RETRIEVERS:
+        for size in ANSWER_CHUNK_SIZES:
+            for key in ANSWER_RETRIEVERS:
                 for reranked in RERANK:
                     ranked = rankings[size, key, reranked][qid]
                     for k in TOP_K:  # same ranking, growing k: the model reuses the shared prompt start

@@ -21,12 +21,19 @@ TOP_K = [3, 5, 10]
 GENERATOR = "gemma4:e4b-it-qat"
 JUDGE = "gemma4:12b-it-qat"
 
+# Answers are generated for the two ends of chunk size and retriever only, to keep
+# the local answer run near 7 hours. Retrieval is still scored on the full grid.
+ANSWER_CHUNK_SIZES = [128, 512]
+ANSWER_RETRIEVERS = ["bm25", "bge-base"]
+ANSWER_SAMPLE = {"multihop_rag": 150, "natural_questions": 100}  # drawn from the question sample
 
-def configurations():
-    """All 54 answer configurations as dicts, in a fixed order."""
+
+def configurations(answers: bool = False):
+    """The 54 retrieval configurations, or the 24 that get answers, as dicts in a fixed order."""
+    sizes, retrievers = (ANSWER_CHUNK_SIZES, ANSWER_RETRIEVERS) if answers else (CHUNK_SIZES, RETRIEVERS)
     return [
         {"chunk": c, "retriever": r, "rerank": rr, "k": k}
-        for c, r, rr, k in product(CHUNK_SIZES, RETRIEVERS, RERANK, TOP_K)
+        for c, r, rr, k in product(sizes, retrievers, RERANK, TOP_K)
     ]
 
 

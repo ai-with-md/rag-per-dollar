@@ -55,6 +55,12 @@ def test_grid_has_54_distinct_configurations():
     assert len({config_name(**c) for c in configs}) == 54
 
 
+def test_answer_grid_is_24_of_the_retrieval_configurations():
+    answers = configurations(answers=True)
+    assert len(answers) == 24
+    assert all(c in configurations() for c in answers)
+
+
 def test_config_name_is_readable():
     assert config_name(256, "bge-base", True, 5) == "bge-base 256 +rerank k5"
     assert config_name(128, "bm25", False, 3) == "bm25 128 k3"
