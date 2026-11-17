@@ -26,6 +26,7 @@ Answers come from one model, Gemma 4 E4B, run locally. Every configuration is sc
 | # | Question |
 |---|---|
 | [01](notebooks/01_data_and_floors.ipynb) | What are we testing, and how far does guessing get? |
+| [02](notebooks/02_retrieval.ipynb) | Which configurations find the evidence? |
 
 ## Data
 
@@ -43,6 +44,7 @@ python3 -m venv .venv
 source .venv/bin/activate
 pip install -e ".[run,notebooks,dev]" evalsize
 python scripts/download_data.py
+python scripts/build_retrieval.py   # about 6 hours on an Apple M4
 jupyter notebook notebooks/
 ```
 
@@ -54,8 +56,8 @@ Run the tests with `pytest`. They need no downloaded data or models.
 ragdecisions/   small helpers: data loading, chunking, text matching, the fixed grid, chart style
 notebooks/      one notebook per question, outputs saved
 plans/          the analysis plan, written before any answers
-results/        the fixed question sample and, later, per-question results
+results/        the fixed question sample, per-question retrieval scores and timings
 tests/          unit tests, run on every push
 docs/figures/   charts used in this README
-scripts/        data download
+scripts/        data download, retrieval, and answer generation
 ```
