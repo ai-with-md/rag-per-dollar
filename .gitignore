@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+.ipynb_checkpoints/
+.pytest_cache/
+
+# Secrets
+.env
+
+# Data is downloaded by scripts/download_data.py, not committed
+data/
+
+# Indexes and model caches are rebuilt by the run scripts
+cache/
+
+# OS
+.DS_Store
