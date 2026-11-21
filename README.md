@@ -29,6 +29,7 @@ Answers come from one model, Gemma 4 E4B, run locally. Configurations are scored
 | [02](notebooks/02_retrieval.ipynb) | Which configurations find the evidence? |
 | [03](notebooks/03_answers.ipynb) | How often are the answers right? |
 | [04](notebooks/04_retrieval_vs_answers.ipynb) | Do retrieval scores predict the answers? |
+| [05](notebooks/05_cost.ipynb) | What does each choice cost, and which is worth it? |
 
 ## Data
 
@@ -60,7 +61,7 @@ Run the tests with `pytest`. They need no downloaded data or models.
 ## Layout
 
 ```
-ragdecisions/   small helpers: data loading, chunking, text matching, grading, the fixed grid, chart style
+ragdecisions/   small helpers: data loading, chunking, text matching, grading, costs, the fixed grid, chart style
 notebooks/      one notebook per question, outputs saved
 plans/          the analysis plan, written before any answers
 results/        the fixed samples, retrieval scores, timings, generated answers, grades and the hand check

@@ -52,3 +52,9 @@ A timing check of 50 answers, not scored, put the full answer run at about 31 ho
 - **Answer sample: 150 MultiHop-RAG questions and 100 Natural Questions,** drawn from the question sample with seed 7, keeping each type's share, and saved in `results/answer_sample.csv`.
 - Findings 2, 4 and 5 use the 24 answer configurations. The hand check of 150 answers is unchanged.
 - **What it costs:** for one configuration against another, the smallest detectable difference in accuracy rises from about 7 to about 9 points on MultiHop-RAG and from about 8 to about 11 on Natural Questions (notebook 01). Findings that average a choice over its other settings pool several such comparisons.
+
+## Amendment, November 20, 2026 (added later, after the answers were graded, while building the cost notebook)
+
+- **Token price.** The plan called for a published hosted price checked on the day. On November 20, the pricing pages of DeepInfra and Fireworks and OpenRouter's model list did not show Gemma 4 E4B, and third-party listings ranged from $0.02 to $0.30 per million input tokens and $0.10 to $1.25 per million output tokens. Costs are therefore reported at the lowest and highest listing, and finding 4 is repeated at all four listed prices. This was decided after a first look at the costs, which showed that finding 4 picks the same configurations at every listed price.
+- **Hourly rate.** Search and reranking time is priced at $0.145 an hour, an on-demand AWS c7g.xlarge in us-east-1.
+- **"The best configuration" in finding 4** is the one with the highest observed accuracy, compared with every other configuration on the same bootstrap resamples.
