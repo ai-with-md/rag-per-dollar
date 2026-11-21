@@ -21,7 +21,7 @@ Homepage = "https://github.com/ai-with-md/rag-per-dollar"
 
 [project.optional-dependencies]
 run = ["pyarrow", "rank-bm25", "sentence-transformers>=3.0"]
-notebooks = ["jupyter", "nbformat", "nbconvert", "ipykernel"]
+notebooks = ["jupyter", "nbformat", "nbconvert", "ipykernel", "scipy"]
 dev = ["pytest"]
 
 [tool.setuptools]

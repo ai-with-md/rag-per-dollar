@@ -5,7 +5,7 @@ Usage: python scripts/run_answers.py multihop_rag   (or natural_questions)
 The questions are in results/answer_sample.csv (written by notebook 01) and
 the configurations in ragdecisions.grid. Needs Ollama running with the model
 in ragdecisions.grid.GENERATOR, and scripts/build_retrieval.py finished.
-Takes about 4.5 hours for MultiHop-RAG and 3 for Natural Questions on an
+Took 5.3 hours for MultiHop-RAG and 3.8 for Natural Questions on an
 Apple M4. Every answer is cached in cache/answers/<dataset>.jsonl as soon as
 it arrives, so the run can be stopped and restarted at any time and reruns
 are free. Questions are the outer loop, so a partial run already covers the

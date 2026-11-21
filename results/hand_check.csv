@@ -1,0 +1,151 @@
+dataset,item,qid,answer,route,label
+multihop_rag,1,mhr-q0921,No,rule,wrong
+multihop_rag,2,mhr-q1001,Insufficient information.,rule,wrong
+multihop_rag,3,mhr-q1871,Insufficient information.,rule,wrong
+multihop_rag,4,mhr-q0605,Insufficient information.,rule,wrong
+multihop_rag,5,mhr-q1161,No,rule,right
+multihop_rag,6,mhr-q1016,sports betting apps,judge,right
+multihop_rag,7,mhr-q1249,Yes,rule,right
+multihop_rag,8,mhr-q1540,No,rule,right
+multihop_rag,9,mhr-q0087,Insufficient information.,rule,wrong
+multihop_rag,10,mhr-q2260,SBF,judge,right
+multihop_rag,11,mhr-q1915,Caroline Ellison,judge,wrong
+multihop_rag,12,mhr-q1215,Insufficient information.,rule,wrong
+multihop_rag,13,mhr-q2417,Insufficient information.,rule,wrong
+multihop_rag,14,mhr-q2132,Alameda,judge,right
+multihop_rag,15,mhr-q1540,Insufficient information,rule,wrong
+multihop_rag,16,mhr-q0634,Yes,rule,right
+multihop_rag,17,mhr-q0669,Apple,judge,wrong
+multihop_rag,18,mhr-q1364,Insufficient information.,rule,right
+multihop_rag,19,mhr-q2098,Consistent,judge,wrong
+multihop_rag,20,mhr-q1525,"Yes, No",judge,wrong
+multihop_rag,21,mhr-q1223,Sam Bankman-Fried,rule,right
+multihop_rag,22,mhr-q1023,Altman,judge,right
+multihop_rag,23,mhr-q0884,Inconsistent,judge,wrong
+multihop_rag,24,mhr-q1656,No,rule,wrong
+multihop_rag,25,mhr-q2218,Matt Huang,judge,wrong
+multihop_rag,26,mhr-q1092,No,rule,right
+multihop_rag,27,mhr-q1994,Yes,rule,right
+multihop_rag,28,mhr-q2336,Insufficient information.,rule,wrong
+multihop_rag,29,mhr-q0777,Consistent,rule,right
+multihop_rag,30,mhr-q0884,Insufficient information.,rule,wrong
+multihop_rag,31,mhr-q1928,Insufficient information.,rule,right
+multihop_rag,32,mhr-q0011,Insufficient information.,rule,wrong
+multihop_rag,33,mhr-q1354,Insufficient information.,rule,wrong
+multihop_rag,34,mhr-q2336,Google,rule,right
+multihop_rag,35,mhr-q2291,Insufficient information.,rule,wrong
+multihop_rag,36,mhr-q0789,Yes,rule,wrong
+multihop_rag,37,mhr-q1658,Yes,rule,right
+multihop_rag,38,mhr-q0186,Springboks,judge,wrong
+multihop_rag,39,mhr-q0501,Insufficient information.,rule,right
+multihop_rag,40,mhr-q2403,Insufficient information.,rule,wrong
+multihop_rag,41,mhr-q0789,Insufficient information,rule,wrong
+multihop_rag,42,mhr-q2020,Yes,rule,right
+multihop_rag,43,mhr-q0943,Insufficient information.,rule,right
+multihop_rag,44,mhr-q0588,No,rule,right
+multihop_rag,45,mhr-q0773,OpenAI,rule,right
+multihop_rag,46,mhr-q2328,SBF,judge,right
+multihop_rag,47,mhr-q0683,Insufficient information.,rule,right
+multihop_rag,48,mhr-q0522,Insufficient information.,rule,wrong
+multihop_rag,49,mhr-q1994,No,rule,wrong
+multihop_rag,50,mhr-q2297,Yes,rule,right
+multihop_rag,51,mhr-q1871,No,rule,wrong
+multihop_rag,52,mhr-q2528,Yes,rule,right
+multihop_rag,53,mhr-q2041,SBF,judge,right
+multihop_rag,54,mhr-q0669,Google,rule,right
+multihop_rag,55,mhr-q0659,Everton,judge,right
+multihop_rag,56,mhr-q0011,Insufficient information,rule,wrong
+multihop_rag,57,mhr-q0087,No,rule,wrong
+multihop_rag,58,mhr-q2006,Google,rule,right
+multihop_rag,59,mhr-q1525,Yes No,judge,wrong
+multihop_rag,60,mhr-q2432,Insufficient information.,rule,wrong
+multihop_rag,61,mhr-q2141,Yes,rule,right
+multihop_rag,62,mhr-q0004,BetMGM,judge,wrong
+multihop_rag,63,mhr-q0246,Insufficient information,rule,wrong
+multihop_rag,64,mhr-q0178,Apple,judge,wrong
+multihop_rag,65,mhr-q0913,Sam Bankman-Fried,rule,right
+multihop_rag,66,mhr-q0696,Insufficient information,rule,wrong
+multihop_rag,67,mhr-q0934,No,rule,wrong
+multihop_rag,68,mhr-q2096,Insufficient information.,rule,wrong
+multihop_rag,69,mhr-q2491,No,rule,right
+multihop_rag,70,mhr-q2132,Insufficient information.,rule,wrong
+multihop_rag,71,mhr-q1262,Yes,rule,right
+multihop_rag,72,mhr-q1792,PURDY,judge,right
+multihop_rag,73,mhr-q1894,Yes,rule,right
+multihop_rag,74,mhr-q2370,Insufficient information,rule,right
+multihop_rag,75,mhr-q1059,Insufficient information.,rule,wrong
+multihop_rag,76,mhr-q0631,Insufficient information.,rule,right
+multihop_rag,77,mhr-q2389,Sam Bankman-Fried,rule,right
+multihop_rag,78,mhr-q0669,Epic Games,judge,wrong
+multihop_rag,79,mhr-q0913,SBF,judge,right
+multihop_rag,80,mhr-q0631,Insufficient information,rule,right
+multihop_rag,81,mhr-q1335,Insufficient information.,rule,right
+multihop_rag,82,mhr-q0004,Caesars,judge,right
+multihop_rag,83,mhr-q1306,Insufficient information.,rule,wrong
+multihop_rag,84,mhr-q1792,Purdy,judge,right
+multihop_rag,85,mhr-q1915,Sam Bankman-Fried,rule,right
+multihop_rag,86,mhr-q2360,No,rule,right
+multihop_rag,87,mhr-q2529,Insufficient information.,rule,wrong
+multihop_rag,88,mhr-q1327,Marc Andreessen,judge,wrong
+multihop_rag,89,mhr-q1994,Insufficient information,rule,wrong
+multihop_rag,90,mhr-q0470,Insufficient information,rule,wrong
+multihop_rag,91,mhr-q1016,sportsbooks,rule,right
+multihop_rag,92,mhr-q2344,Align,judge,right
+multihop_rag,93,mhr-q0452,Insufficient information.,rule,wrong
+multihop_rag,94,mhr-q0693,Google,rule,right
+multihop_rag,95,mhr-q0268,Microsoft,judge,wrong
+multihop_rag,96,mhr-q0333,Insufficient information.,rule,wrong
+multihop_rag,97,mhr-q1476,Yes,rule,right
+multihop_rag,98,mhr-q0913,Insufficient information.,rule,wrong
+multihop_rag,99,mhr-q1896,No,rule,wrong
+multihop_rag,100,mhr-q0246,No,rule,right
+natural_questions,1,nq-q-7521086178060626112,Gametes (sperm or egg cells),judge,right
+natural_questions,2,nq-q5209333152825126410,She's going to change the world,judge,wrong
+natural_questions,3,nq-q-6216202368088666946,John Hayes,judge,wrong
+natural_questions,4,nq-q-2666014283344944039,Manley,rule,right
+natural_questions,5,nq-q2921083046057632317,Simple,judge,wrong
+natural_questions,6,nq-q3878205697753989105,2015 -- 16 stock market crash,judge,right
+natural_questions,7,nq-q4974429461066436469,Enamel,judge,right
+natural_questions,8,nq-q9165537165199340364,"Immune system, biochemical processes, cellular metabolism, superoxide dismutase (SOD), degradation of adenosine monophosphate, degradation of guanosine monophosphate",judge,wrong
+natural_questions,9,nq-q-7521086178060626112,gametes (sperm and egg cells),judge,right
+natural_questions,10,nq-q6787462403220370958,Insufficient information,rule,wrong
+natural_questions,11,nq-q-4649146182478016322,1989,judge,wrong
+natural_questions,12,nq-q6788315330567276031,Ben Savage,rule,right
+natural_questions,13,nq-q8358137531154800533,Sonata form,judge,wrong
+natural_questions,14,nq-q-4340755100872459608,Health,judge,right
+natural_questions,15,nq-q-8251885859273118288,John Garfield Eleanor Parker,judge,right
+natural_questions,16,nq-q6185099521013996598,The Cornett family,rule,right
+natural_questions,17,nq-q243685073103458654,De-stabilizing in the short - term,judge,wrong
+natural_questions,18,nq-q-7073063191952855764,Insufficient information,rule,wrong
+natural_questions,19,nq-q1656745334095178455,Defining the problems and / or goals,judge,wrong
+natural_questions,20,nq-q7792739727631752488,Luke,judge,wrong
+natural_questions,21,nq-q-143054837169120955,along the coast of northern California,judge,right
+natural_questions,22,nq-q-6430362822443228402,Tracy Shayne,judge,wrong
+natural_questions,23,nq-q7916785921956044047,Daniher,judge,right
+natural_questions,24,nq-q-2321556715412254267,Ffynnon Garw / The Garth,judge,wrong
+natural_questions,25,nq-q4826602256490942616,"16,801",rule,right
+natural_questions,26,nq-q-1084748809184043293,Early in 1941,judge,wrong
+natural_questions,27,nq-q-6944975865006468886,Umbridge,judge,wrong
+natural_questions,28,nq-q8869318258439148973,Lady Gaga,judge,wrong
+natural_questions,29,nq-q-3650291155113659146,Insufficient information.,rule,wrong
+natural_questions,30,nq-q7916785921956044047,"Navaratnam, Dinny",judge,wrong
+natural_questions,31,nq-q-7475618662654372287,Scythe,rule,right
+natural_questions,32,nq-q-2666014283344944039,Insufficient information,rule,wrong
+natural_questions,33,nq-q-5190081813109108133,13,judge,wrong
+natural_questions,34,nq-q-7816789034233739974,"Mick Jagger, Keith Richards, Charlie Watts, Ronnie Wood, Brian Jones, Ian Stewart, Mick Taylor, Bill Wyman, Tony Chapman, Ricky Fenson, Colin Golding, Carlo Little, Dick Taylor",judge,wrong
+natural_questions,35,nq-q955374967862684316,February to June,judge,wrong
+natural_questions,36,nq-q4974429461066436469,Insufficient information.,rule,wrong
+natural_questions,37,nq-q9027116721747088541,Jonathan Cheban,rule,right
+natural_questions,38,nq-q9165537165199340364,"Biochemical processes, peroxisomes, immune system, cellular metabolism, degradation of adenosine monophosphate, degradation of guanosine monophosphate",judge,wrong
+natural_questions,39,nq-q4200848110079075636,Confederate victory,rule,right
+natural_questions,40,nq-q6091079313707220510,Simba,judge,wrong
+natural_questions,41,nq-q-727723498305027307,Insufficient information.,rule,wrong
+natural_questions,42,nq-q955374967862684316,February,judge,wrong
+natural_questions,43,nq-q1656745334095178455,Generate all possible solutions,judge,wrong
+natural_questions,44,nq-q6421988180326309644,Insufficient information.,rule,wrong
+natural_questions,45,nq-q7439208340888264395,10 St. Luke's Place near 7th Avenue in Manhattan's Greenwich Village,judge,wrong
+natural_questions,46,nq-q-5412703064874788739,1969,judge,wrong
+natural_questions,47,nq-q-7073063191952855764,Petyr,judge,wrong
+natural_questions,48,nq-q-5930016277857501798,K. MacColl / P. Rambow,judge,right
+natural_questions,49,nq-q-2432292250757146771,"Garrett Nash, Olivia O'Brien",judge,right
+natural_questions,50,nq-q243685073103458654,Insufficient information.,rule,wrong

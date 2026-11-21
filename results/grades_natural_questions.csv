@@ -1,0 +1,498 @@
+dataset,qid,answer,correct,method,judge_reply
+natural_questions,nq-q955374967862684316,Insufficient information.,False,rule,
+natural_questions,nq-q955374967862684316,February to June,False,judge,Incorrect
+natural_questions,nq-q955374967862684316,February in the southern part of Nigeria to June in northern part of Nigeria,False,judge,Incorrect
+natural_questions,nq-q955374967862684316,February in June,False,judge,Incorrect
+natural_questions,nq-q955374967862684316,February and June,False,judge,Incorrect
+natural_questions,nq-q955374967862684316,February,False,judge,Incorrect
+natural_questions,nq-q955374967862684316,"February in the southern part of Nigeria while it takes longer for the wind to fully cover the whole of the country, reaching the northern part of Nigeria in June.",False,judge,Incorrect
+natural_questions,nq-q955374967862684316,July to September,True,judge,Correct
+natural_questions,nq-q955374967862684316,Rainy season,False,judge,Incorrect
+natural_questions,nq-q-4340755100872459608,Health Points,True,judge,Correct
+natural_questions,nq-q-4340755100872459608,Insufficient information.,False,rule,
+natural_questions,nq-q-4340755100872459608,Insufficient information,False,rule,
+natural_questions,nq-q-4340755100872459608,hit points or health points,True,rule,
+natural_questions,nq-q-4340755100872459608,Health points or health points,True,judge,Correct
+natural_questions,nq-q-4340755100872459608,Health,True,judge,Correct
+natural_questions,nq-q-4340755100872459608,HP,False,judge,Incorrect
+natural_questions,nq-q-6560319052930436991,Insufficient information,False,rule,
+natural_questions,nq-q-6560319052930436991,Insufficient information.,False,rule,
+natural_questions,nq-q-6560319052930436991,Leigh,False,judge,Incorrect
+natural_questions,nq-q-6560319052930436991,Lexie,True,rule,
+natural_questions,nq-q-6560319052930436991,Lexie Grey,True,judge,Correct
+natural_questions,nq-q-6560319052930436991,Dr. Lexie Grey,True,rule,
+natural_questions,nq-q-5190081813109108133,13,False,judge,Incorrect
+natural_questions,nq-q-5190081813109108133,15,False,judge,Incorrect
+natural_questions,nq-q-5190081813109108133,14,True,rule,
+natural_questions,nq-q8358137531154800533,Sonata form,False,judge,Incorrect
+natural_questions,nq-q8358137531154800533,Insufficient information.,False,rule,
+natural_questions,nq-q8358137531154800533,No,False,judge,Incorrect
+natural_questions,nq-q8358137531154800533,"Symphony in g minor, KV. 550",True,judge,Correct
+natural_questions,nq-q8358137531154800533,four movements,False,judge,Incorrect
+natural_questions,nq-q8358137531154800533,"fast movement, slow movement, minuet, fast movement",False,judge,Incorrect
+natural_questions,nq-q-3088831012491766629,8,True,judge,Correct
+natural_questions,nq-q-3088831012491766629,Season 8,True,judge,Correct
+natural_questions,nq-q-3088831012491766629,season 8,True,judge,Correct
+natural_questions,nq-q-5930016277857501798,The Smiths,False,judge,Incorrect
+natural_questions,nq-q-5930016277857501798,K. MacColl / P. Rambow,True,judge,Correct
+natural_questions,nq-q-5930016277857501798,Kirsty MacColl / Philip Rambow,True,rule,
+natural_questions,nq-q1311019403755331535,"6'3""",False,judge,Incorrect
+natural_questions,nq-q1311019403755331535,Insufficient information.,False,rule,
+natural_questions,nq-q1311019403755331535,6'1,True,judge,Correct
+natural_questions,nq-q1311019403755331535,"6'1""",True,judge,Correct
+natural_questions,nq-q1311019403755331535,6 ft 1 in,True,judge,Correct
+natural_questions,nq-q1311019403755331535,6 ft 1 in (185 cm),True,judge,Correct
+natural_questions,nq-q-6216202368088666946,John Hayes,False,judge,Incorrect
+natural_questions,nq-q-6216202368088666946,Insufficient information.,False,rule,
+natural_questions,nq-q-6216202368088666946,Bart Cummings,True,rule,
+natural_questions,nq-q-8074993547733090370,Graphic novel,True,rule,
+natural_questions,nq-q-8074993547733090370,Novels,True,judge,Correct
+natural_questions,nq-q-8074993547733090370,Children 's novel Graphic Novel,True,judge,Correct
+natural_questions,nq-q-8074993547733090370,Insufficient information,False,rule,
+natural_questions,nq-q-8074993547733090370,Realistic fiction,True,judge,Correct
+natural_questions,nq-q-1330515253963834494,Insufficient information.,False,rule,
+natural_questions,nq-q-1330515253963834494,2019,True,rule,
+natural_questions,nq-q-1330515253963834494,"2006 to 2011, 2012 to 2014, 2018, 2019",False,judge,Incorrect
+natural_questions,nq-q-1330515253963834494,14 January 2006,False,judge,Incorrect
+natural_questions,nq-q-1330515253963834494,Original Series: 14 January 2006,False,judge,Incorrect
+natural_questions,nq-q-7816789034233739974,"Mick Jagger, Keith Richards, Brian Jones, Charlie Watts",False,judge,Incorrect
+natural_questions,nq-q-7816789034233739974,Insufficient information.,False,rule,
+natural_questions,nq-q-7816789034233739974,"Mick Jagger, Keith Richards, Charlie Watts, Ronnie Wood, Brian Jones, Ian Stewart, Mick Taylor, Bill Wyman, Tony Chapman, Ricky Fenson, Colin Golding, Carlo Little, Dick Taylor",True,judge,Correct
+natural_questions,nq-q-7816789034233739974,"Mick Jagger, Keith Richards, Charlie Watts, Ronnie Wood, Brian Jones, Ian Stewart, Mick Taylor, Bill Wyman",True,judge,Correct
+natural_questions,nq-q-7816789034233739974,"Mick Jagger, Keith Richards, Charlie Watts, Ronnie Wood",True,judge,Correct
+natural_questions,nq-q-7816789034233739974,"Mick Jagger, Keith Richards, Charlie Watts, Ronnie Wood, Brian Jones, Ian Stewart, Bill Wyman, Mick Taylor",True,judge,Correct
+natural_questions,nq-q-7816789034233739974,"Mick Jagger, Keith Richards, Charlie Watts, Ronnie Wood, Brian Jones, Ian Stewart, Dick Taylor, Bill Wyman, Mick Taylor",True,judge,Correct
+natural_questions,nq-q-12824711872448438,Auguste Escoffier,True,judge,Correct
+natural_questions,nq-q-12824711872448438,Georges Auguste Escoffier,True,rule,
+natural_questions,nq-q6091079313707220510,Simba,False,judge,Incorrect
+natural_questions,nq-q6091079313707220510,Richard Parker,True,rule,
+natural_questions,nq-q-5248648953323441399,Insufficient information.,False,rule,
+natural_questions,nq-q-5248648953323441399,Prior to 1984,False,judge,Incorrect
+natural_questions,nq-q-5248648953323441399,12 April 1967,False,judge,Incorrect
+natural_questions,nq-q-5248648953323441399,Insufficient information,False,rule,
+natural_questions,nq-q-5248648953323441399,1967,False,judge,Incorrect
+natural_questions,nq-q-5248648953323441399,1977,False,judge,Incorrect
+natural_questions,nq-q-5248648953323441399,September 1745,False,judge,Incorrect
+natural_questions,nq-q-5412703064874788739,1973,True,rule,
+natural_questions,nq-q-5412703064874788739,Insufficient information.,False,rule,
+natural_questions,nq-q-5412703064874788739,1969,False,judge,Incorrect
+natural_questions,nq-q-5412703064874788739,"January 27, 1973",True,judge,Correct
+natural_questions,nq-q-5412703064874788739,Insufficient information,False,rule,
+natural_questions,nq-q-5412703064874788739,"June 30, 1973",True,judge,Correct
+natural_questions,nq-q-5412703064874788739,1975,False,judge,Incorrect
+natural_questions,nq-q-5412703064874788739,"April 23, 1975",False,judge,Incorrect
+natural_questions,nq-q-5412703064874788739,"After much debate within the Nixon administration and Congress, it was decided that an all - volunteer force was affordable, feasible, and would enhance the nation 's security.",False,judge,Incorrect
+natural_questions,nq-q7903911150166287814,Linebacker,False,judge,Incorrect
+natural_questions,nq-q7903911150166287814,Insufficient information.,False,rule,
+natural_questions,nq-q7903911150166287814,backup quarterback and holder on placekicks,True,judge,Correct
+natural_questions,nq-q7903911150166287814,Insufficient information,False,rule,
+natural_questions,nq-q7903911150166287814,backup quarterback,True,judge,Correct
+natural_questions,nq-q-4899459378116987342,Insufficient information.,False,rule,
+natural_questions,nq-q-4899459378116987342,Kevin Pietersen and Brian Wilson,True,judge,Correct
+natural_questions,nq-q-4899459378116987342,Insufficient information,False,rule,
+natural_questions,nq-q1196743193353431992,_Aurelia_,False,judge,Incorrect
+natural_questions,nq-q1196743193353431992,C. capillata,True,rule,
+natural_questions,nq-q-2835721088579212901,Texas,False,judge,Incorrect
+natural_questions,nq-q-2835721088579212901,Insufficient information.,False,rule,
+natural_questions,nq-q-2835721088579212901,Insufficient information,False,rule,
+natural_questions,nq-q-2835721088579212901,Georgia,False,judge,Incorrect
+natural_questions,nq-q-2835721088579212901,California,True,rule,
+natural_questions,nq-q-7131256976461939476,Insufficient information.,False,rule,
+natural_questions,nq-q-7131256976461939476,Insufficient information,False,rule,
+natural_questions,nq-q-7131256976461939476,"9,436",True,rule,
+natural_questions,nq-q-7131256976461939476,"1,144",False,judge,Incorrect
+natural_questions,nq-q-6430362822443228402,Jennifer Suettelo,False,judge,Incorrect
+natural_questions,nq-q-6430362822443228402,Samantha Hill,True,rule,
+natural_questions,nq-q-6430362822443228402,Tracy Shayne,False,judge,Incorrect
+natural_questions,nq-q-6430362822443228402,Ali Ewoldt,True,rule,
+natural_questions,nq-q-6430362822443228402,Judy Kuhn,True,rule,
+natural_questions,nq-q-1892743779381029561,Unknown,False,judge,Incorrect
+natural_questions,nq-q-1892743779381029561,"Sarah Josepha Hale, John Roulstone",False,judge,Incorrect
+natural_questions,nq-q5639697400438383146,Children's literature,False,judge,Incorrect
+natural_questions,nq-q5639697400438383146,Children 's historical fantasy,True,rule,
+natural_questions,nq-q7525433307945555136,Insufficient information.,False,rule,
+natural_questions,nq-q7525433307945555136,Murrysville,True,judge,Correct
+natural_questions,nq-q7525433307945555136,"California, Florida, Pennsylvania",False,judge,Incorrect
+natural_questions,nq-q7525433307945555136,Pittsburgh,True,judge,Correct
+natural_questions,nq-q7525433307945555136,"Pittsburgh metropolitan area, Vandergrift, Pennsylvania, Florida Keys",False,judge,Incorrect
+natural_questions,nq-q7525433307945555136,Pittsburgh metropolitan area,True,judge,Correct
+natural_questions,nq-q-6944975865006468886,Insufficient information.,False,rule,
+natural_questions,nq-q-6944975865006468886,Quirinus Quirrell,False,judge,Incorrect
+natural_questions,nq-q-6944975865006468886,Dolores Jane Umbridge,False,judge,Incorrect
+natural_questions,nq-q-6944975865006468886,Professor Umbridge,False,judge,Incorrect
+natural_questions,nq-q-6944975865006468886,Professor R.J. Lupin,False,judge,Incorrect
+natural_questions,nq-q-6944975865006468886,Umbridge,False,judge,Incorrect
+natural_questions,nq-q-6944975865006468886,Amycus Carrow,True,rule,
+natural_questions,nq-q-7416755475743802921,Senate,True,rule,
+natural_questions,nq-q-7416755475743802921,United States Senate,True,judge,Correct
+natural_questions,nq-q-7416755475743802921,the Senate,True,rule,
+natural_questions,nq-q-7416755475743802921,The Senate,True,rule,
+natural_questions,nq-q-7416755475743802921,The president with the advice and consent of the Senate,True,judge,Correct
+natural_questions,nq-q-7416755475743802921,President,True,judge,Correct
+natural_questions,nq-q6471679536081978392,Insufficient information,False,rule,
+natural_questions,nq-q6471679536081978392,Insufficient information.,False,rule,
+natural_questions,nq-q6471679536081978392,Charles Cretors,False,judge,Incorrect
+natural_questions,nq-q6471679536081978392,Glen W. Dickson,True,rule,
+natural_questions,nq-q204388505903466611,Insufficient information.,False,rule,
+natural_questions,nq-q204388505903466611,Insufficient information,False,rule,
+natural_questions,nq-q204388505903466611,"Palmer Williams Jr., Patrice Lovely, Tony Hightower, Alexis Jones, Maurice Lauchner, Jeffery Lewis, Kislyck Halsey",True,judge,Correct
+natural_questions,nq-q-8679439398721195447,No,False,judge,Incorrect
+natural_questions,nq-q-8679439398721195447,Insufficient information,False,rule,
+natural_questions,nq-q-8679439398721195447,2010,False,judge,Incorrect
+natural_questions,nq-q-8679439398721195447,1970s,True,judge,Correct
+natural_questions,nq-q-8679439398721195447,Insufficient information.,False,rule,
+natural_questions,nq-q-8679439398721195447,"January 9, 1977",True,judge,Correct
+natural_questions,nq-q-8679439398721195447,1977,True,judge,Correct
+natural_questions,nq-q-8679439398721195447,2017,False,judge,Incorrect
+natural_questions,nq-q-4966275942482530330,Mantle convection,False,judge,Incorrect
+natural_questions,nq-q-4966275942482530330,East Pacific Rise,False,judge,Incorrect
+natural_questions,nq-q-4966275942482530330,magma that erupts from the mantle,True,judge,Correct
+natural_questions,nq-q-4966275942482530330,mid-ocean ridges,False,judge,Incorrect
+natural_questions,nq-q-4966275942482530330,volcanic activity,True,rule,
+natural_questions,nq-q-4966275942482530330,Upper mantle,True,judge,Correct
+natural_questions,nq-q-4966275942482530330,At a spreading center basaltic magma rises up the fractures and cools on the ocean floor to form new seabed.,True,judge,Correct
+natural_questions,nq-q-4966275942482530330,Mid-ocean ridge,False,judge,Incorrect
+natural_questions,nq-q2918354452051217435,Insufficient information.,False,rule,
+natural_questions,nq-q2918354452051217435,Insufficient information,False,rule,
+natural_questions,nq-q4974429461066436469,Enamel,True,judge,Correct
+natural_questions,nq-q4974429461066436469,Insufficient information.,False,rule,
+natural_questions,nq-q4974429461066436469,"teeth, and other calcium - rich areas",False,judge,Incorrect
+natural_questions,nq-q4974429461066436469,teeth,False,judge,Incorrect
+natural_questions,nq-q4974429461066436469,Insufficient information,False,rule,
+natural_questions,nq-q4791954452980353113,Insufficient information.,False,rule,
+natural_questions,nq-q4791954452980353113,30 October 2012,False,judge,Incorrect
+natural_questions,nq-q4791954452980353113,14 November 2010,False,judge,Incorrect
+natural_questions,nq-q4791954452980353113,19 November 2017,False,judge,Incorrect
+natural_questions,nq-q4791954452980353113,25 August 2002,False,judge,Incorrect
+natural_questions,nq-q4200848110079075636,Insufficient information.,False,rule,
+natural_questions,nq-q4200848110079075636,Confederacy,True,judge,Correct
+natural_questions,nq-q4200848110079075636,Confederate,True,rule,
+natural_questions,nq-q4200848110079075636,Confederate victory,True,rule,
+natural_questions,nq-q4200848110079075636,Decisive Confederate victory,True,judge,Correct
+natural_questions,nq-q2875495346792993998,William Baldwin,False,judge,Incorrect
+natural_questions,nq-q2875495346792993998,Michael Moriarty,True,rule,
+natural_questions,nq-q-2528164310441623185,Insufficient information.,False,rule,
+natural_questions,nq-q-2528164310441623185,Yuzuru Hanyu,True,rule,
+natural_questions,nq-q4826602256490942616,Insufficient information.,False,rule,
+natural_questions,nq-q4826602256490942616,"16,801",True,rule,
+natural_questions,nq-q8938104563522346543,Insufficient information.,False,rule,
+natural_questions,nq-q8938104563522346543,Insufficient information,False,rule,
+natural_questions,nq-q8938104563522346543,Terrell Suggs,False,judge,Incorrect
+natural_questions,nq-q8938104563522346543,Derrick Thomas and Tedy Bruschi,False,judge,Incorrect
+natural_questions,nq-q8938104563522346543,Derrick Thomas,False,judge,Incorrect
+natural_questions,nq-q8938104563522346543,Mike Czerwien,True,rule,
+natural_questions,nq-q8938104563522346543,Bruce Smith,False,judge,Incorrect
+natural_questions,nq-q3878205697753989105,2008,False,judge,Incorrect
+natural_questions,nq-q3878205697753989105,"August 18, 2015",True,judge,Correct
+natural_questions,nq-q3878205697753989105,2015 -- 16,True,judge,Correct
+natural_questions,nq-q3878205697753989105,2016,False,judge,Incorrect
+natural_questions,nq-q3878205697753989105,August 2015,True,judge,Correct
+natural_questions,nq-q3878205697753989105,August 2011,False,judge,Incorrect
+natural_questions,nq-q3878205697753989105,2015 -- 16 stock market crash,True,judge,Correct
+natural_questions,nq-q8214553978288463642,Insufficient information.,False,rule,
+natural_questions,nq-q8214553978288463642,Rajendra Prasad,True,rule,
+natural_questions,nq-q8214553978288463642,Dr. Rajendra Prasad,True,rule,
+natural_questions,nq-q8214553978288463642,Quaid - i - Azam Muhammad Ali Jinnah,False,judge,Incorrect
+natural_questions,nq-q-727723498305027307,Insufficient information.,False,rule,
+natural_questions,nq-q-727723498305027307,Insufficient information,False,rule,
+natural_questions,nq-q-727723498305027307,"2,579",True,rule,
+natural_questions,nq-q-727723498305027307,"1,776 or 2,579",False,judge,Incorrect
+natural_questions,nq-q-4036894528440923365,Czech,True,rule,
+natural_questions,nq-q-4036894528440923365,"R.U.R. by the Czech writer, Karel Čapek.",True,judge,Correct
+natural_questions,nq-q-4036894528440923365,"R.U.R. by the Czech writer, Karel Čapek",True,judge,Correct
+natural_questions,nq-q-4036894528440923365,Old Church Slavonic (Old Bulgarian) rabota,False,judge,Incorrect
+natural_questions,nq-q-4036894528440923365,"Czech word, robota",True,judge,Correct
+natural_questions,nq-q-4036894528440923365,A 1920 play R.U.R.,False,judge,Incorrect
+natural_questions,nq-q-4036894528440923365,"Czech, from robota, compulsory labor",True,judge,Correct
+natural_questions,nq-q-4036894528440923365,R.U.R.,False,judge,Incorrect
+natural_questions,nq-q6223491322879193188,Insufficient information.,False,rule,
+natural_questions,nq-q6223491322879193188,Insufficient information,False,rule,
+natural_questions,nq-q6185099521013996598,Insufficient information.,False,rule,
+natural_questions,nq-q6185099521013996598,The Cornett family,True,rule,
+natural_questions,nq-q6185099521013996598,Insufficient information,False,rule,
+natural_questions,nq-q583026970021621830,Insufficient information,False,rule,
+natural_questions,nq-q583026970021621830,Insufficient information.,False,rule,
+natural_questions,nq-q583026970021621830,Marie Van Brittan Brown,True,rule,
+natural_questions,nq-q-2202492303403575297,Sales,False,judge,Incorrect
+natural_questions,nq-q-2202492303403575297,Insufficient information,False,rule,
+natural_questions,nq-q-2202492303403575297,Insufficient information.,False,rule,
+natural_questions,nq-q-2202492303403575297,sales ledger,False,judge,Incorrect
+natural_questions,nq-q-2202492303403575297,Sales ledger,False,judge,Incorrect
+natural_questions,nq-q-2212094428102896502,Palmar and plantar skin,False,judge,Incorrect
+natural_questions,nq-q-2212094428102896502,Stratum lucidum,True,rule,
+natural_questions,nq-q-2212094428102896502,thick skin,False,judge,Incorrect
+natural_questions,nq-q-2212094428102896502,"palms, fingers, soles, and toes",False,judge,Incorrect
+natural_questions,nq-q-2212094428102896502,Thick skin,True,judge,Correct
+natural_questions,nq-q-2212094428102896502,glabrous skin,True,judge,Correct
+natural_questions,nq-q-2212094428102896502,stratum lucidum,True,rule,
+natural_questions,nq-q-2666014283344944039,Insufficient information.,False,rule,
+natural_questions,nq-q-2666014283344944039,Percy Fawcett,False,judge,Incorrect
+natural_questions,nq-q-2666014283344944039,Manley,True,rule,
+natural_questions,nq-q-2666014283344944039,Insufficient information,False,rule,
+natural_questions,nq-q9165537165199340364,White blood cells,True,judge,Correct
+natural_questions,nq-q9165537165199340364,naturally produced by the body,True,judge,Correct
+natural_questions,nq-q9165537165199340364,immune system,False,judge,Incorrect
+natural_questions,nq-q9165537165199340364,"Immune system, biochemical processes, cellular metabolism, superoxide dismutase (SOD), degradation of adenosine monophosphate, degradation of guanosine monophosphate",False,judge,Incorrect
+natural_questions,nq-q9165537165199340364,Immune system; degradation of adenosine monophosphate,False,judge,Incorrect
+natural_questions,nq-q9165537165199340364,The immune system,False,judge,Incorrect
+natural_questions,nq-q9165537165199340364,Immune system; peroxisomes; degradation of adenosine monophosphate or guanosine monophosphate,True,judge,Correct
+natural_questions,nq-q9165537165199340364,SOD (superoxide dismutase),False,judge,Incorrect
+natural_questions,nq-q9165537165199340364,"SOD, peroxisomes, or cellular metabolism",True,judge,Correct
+natural_questions,nq-q9165537165199340364,Biochemical processes; SOD (superoxide dismutase) promotes the disproportionation of superoxide into oxygen and hydrogen peroxide; Peroxisomes produce hydrogen peroxide upon oxidation; degradation of adenosine monophosphate; degradation of guanosine monophosphate,True,judge,Correct
+natural_questions,nq-q9165537165199340364,"Biochemical processes, peroxisomes, immune system",False,judge,Incorrect
+natural_questions,nq-q9165537165199340364,"Biochemical processes, peroxisomes, immune system, cellular metabolism, degradation of adenosine monophosphate, degradation of guanosine monophosphate",True,judge,Correct
+natural_questions,nq-q9165537165199340364,"Reactive oxygen species, such as superoxide ion ($\text{O}^{2-}$) and hydrogen peroxide ($\text{H}_2\text{O}_2$), are reactive by-products of oxygen use in organisms.",True,judge,Correct
+natural_questions,nq-q7792739727631752488,Gospels,False,judge,Incorrect
+natural_questions,nq-q7792739727631752488,Insufficient information.,False,rule,
+natural_questions,nq-q7792739727631752488,Insufficient information,False,rule,
+natural_questions,nq-q7792739727631752488,Luke,False,judge,Incorrect
+natural_questions,nq-q7792739727631752488,Acts 1: 4 -- 8,False,judge,Incorrect
+natural_questions,nq-q7792739727631752488,Synoptic Gospels,False,judge,Incorrect
+natural_questions,nq-q7792739727631752488,"Matt 10: 1 -- 4, Mark 3: 13 -- 19, Luke 6: 12 -- 16, Acts 1: 13, John 6:",True,judge,Correct
+natural_questions,nq-q7792739727631752488,"Mark 3:13 -- 19, Matthew 10: 1 -- 4, Luke 6: 12 -- 16, and Acts 1: 13",True,judge,Correct
+natural_questions,nq-q7792739727631752488,"Matthew 10: 1 -- 4, Mark 3: 13 -- 19, Luke 6: 12 -- 16, and Acts 1: 13",True,judge,Correct
+natural_questions,nq-q7792739727631752488,"Domus Galilaeae, Israel.",False,judge,Incorrect
+natural_questions,nq-q7792739727631752488,"Mark 3: 13 -- 19, Matthew 10: 1 -- 4, Luke 6: 12 -- 16, and Acts 1: 13",True,judge,Correct
+natural_questions,nq-q7792739727631752488,Acts 1: 13,True,rule,
+natural_questions,nq-q5575695503847666333,Anders Celsius,True,judge,Correct
+natural_questions,nq-q5575695503847666333,Insufficient information.,False,rule,
+natural_questions,nq-q5575695503847666333,Named after the Swedish astronomer Anders Celsius,True,judge,Correct
+natural_questions,nq-q-6810329884310977510,Michelle Monaghan,False,judge,Incorrect
+natural_questions,nq-q-6810329884310977510,Keeley Hawes,True,judge,Correct
+natural_questions,nq-q-6810329884310977510,Insufficient information.,False,rule,
+natural_questions,nq-q124876126940994626,Insufficient information.,False,rule,
+natural_questions,nq-q124876126940994626,Richter,True,rule,
+natural_questions,nq-q124876126940994626,"""Richter""",True,rule,
+natural_questions,nq-q-7942290859136471251,1940,True,judge,Correct
+natural_questions,nq-q-7942290859136471251,June 1940,True,judge,Correct
+natural_questions,nq-q-7942290859136471251,Insufficient information.,False,rule,
+natural_questions,nq-q-7942290859136471251,28 October 1940,False,judge,Incorrect
+natural_questions,nq-q-7942290859136471251,"September 27, 1940",False,judge,Incorrect
+natural_questions,nq-q-7942290859136471251,10 June 1940,True,rule,
+natural_questions,nq-q-7942290859136471251,1943,False,judge,Incorrect
+natural_questions,nq-q-8251885859273118288,Chris Pratt,False,judge,Incorrect
+natural_questions,nq-q-8251885859273118288,John Garfield Eleanor Parker,False,judge,Incorrect
+natural_questions,nq-q-8251885859273118288,"John Garfield, Eleanor Parker",False,judge,Incorrect
+natural_questions,nq-q-8251885859273118288,John Garfield and Eleanor Parker,False,judge,Incorrect
+natural_questions,nq-q9188359206780164872,Insufficient information,False,rule,
+natural_questions,nq-q9188359206780164872,1837,True,rule,
+natural_questions,nq-q9188359206780164872,1834,True,rule,
+natural_questions,nq-q6788315330567276031,Kristin Chenoweth,False,judge,Incorrect
+natural_questions,nq-q6788315330567276031,Insufficient information.,False,rule,
+natural_questions,nq-q6788315330567276031,Norris,False,judge,Incorrect
+natural_questions,nq-q6788315330567276031,Insufficient information,False,rule,
+natural_questions,nq-q6788315330567276031,Chet Hunter,False,judge,Incorrect
+natural_questions,nq-q6788315330567276031,Will Friedle,False,judge,Incorrect
+natural_questions,nq-q6788315330567276031,Ben Savage,True,rule,
+natural_questions,nq-q6788315330567276031,William Russ,False,judge,Incorrect
+natural_questions,nq-q6788315330567276031,Cory,True,judge,Correct
+natural_questions,nq-q6788315330567276031,Cory Matthews,True,rule,
+natural_questions,nq-q243685073103458654,Economic shock,False,judge,Incorrect
+natural_questions,nq-q243685073103458654,Insufficient information.,False,rule,
+natural_questions,nq-q243685073103458654,De-stabilizing in the short - term and left the population impoverished in the long - term.,False,judge,Incorrect
+natural_questions,nq-q243685073103458654,Economic output declined much more than expected.,False,judge,Incorrect
+natural_questions,nq-q243685073103458654,De-stabilizing in the short - term,False,judge,Incorrect
+natural_questions,nq-q243685073103458654,Inflation remained above 20 percent a year (except in the Czech Republic and Hungary) until the mid-1990s.,False,judge,Incorrect
+natural_questions,nq-q243685073103458654,economic liberalization,False,judge,Incorrect
+natural_questions,nq-q243685073103458654,Unemployment increased and wages fell in real terms,False,judge,Incorrect
+natural_questions,nq-q243685073103458654,macro-economic stabilization,False,judge,Incorrect
+natural_questions,nq-q5154394238729460303,Alaska,True,rule,
+natural_questions,nq-q5154394238729460303,Insufficient information,False,rule,
+natural_questions,nq-q-6371603500131574271,Michael Jackson,False,judge,Incorrect
+natural_questions,nq-q-6371603500131574271,Rockwell,True,rule,
+natural_questions,nq-q-1084748809184043293,Insufficient information.,False,rule,
+natural_questions,nq-q-1084748809184043293,Early in 1941,False,judge,Incorrect
+natural_questions,nq-q-1084748809184043293,Insufficient information,False,rule,
+natural_questions,nq-q-1084748809184043293,1938,False,judge,Incorrect
+natural_questions,nq-q-1084748809184043293,1939,True,rule,
+natural_questions,nq-q-1084748809184043293,July 1941,False,judge,Incorrect
+natural_questions,nq-q-1084748809184043293,August 1,False,judge,Incorrect
+natural_questions,nq-q-1084748809184043293,"August 1, 1941",False,judge,Incorrect
+natural_questions,nq-q4395570541686945657,Insufficient information.,False,rule,
+natural_questions,nq-q4395570541686945657,Oakland Raiders,False,judge,Incorrect
+natural_questions,nq-q4395570541686945657,Philadelphia,False,judge,Incorrect
+natural_questions,nq-q-4649146182478016322,1989,False,judge,Incorrect
+natural_questions,nq-q-4649146182478016322,Insufficient information,False,rule,
+natural_questions,nq-q-4649146182478016322,2000,False,judge,Incorrect
+natural_questions,nq-q-4649146182478016322,August 2000,False,judge,Incorrect
+natural_questions,nq-q-4649146182478016322,31 August 2000,False,judge,Incorrect
+natural_questions,nq-q-4649146182478016322,5 February 2000,False,judge,Incorrect
+natural_questions,nq-q-4649146182478016322,Insufficient information.,False,rule,
+natural_questions,nq-q5255969991136559330,Various artists,False,judge,Incorrect
+natural_questions,nq-q5255969991136559330,Jason Paige,True,rule,
+natural_questions,nq-q-2432292250757146771,Insufficient information.,False,rule,
+natural_questions,nq-q-2432292250757146771,Gnash featuring Olivia O'Brien,True,judge,Correct
+natural_questions,nq-q-2432292250757146771,"Garrett Nash, Olivia O'Brien",False,judge,Incorrect
+natural_questions,nq-q-2432292250757146771,Garrett Nash and Olivia O'Brien,False,judge,Incorrect
+natural_questions,nq-q-3650291155113659146,24,False,judge,Incorrect
+natural_questions,nq-q-3650291155113659146,Insufficient information.,False,rule,
+natural_questions,nq-q-3650291155113659146,232,True,rule,
+natural_questions,nq-q6915606477668963399,Ellipsis,False,judge,Incorrect
+natural_questions,nq-q6915606477668963399,Insufficient information,False,rule,
+natural_questions,nq-q6915606477668963399,Insufficient information.,False,rule,
+natural_questions,nq-q6915606477668963399,Therefore sign,True,rule,
+natural_questions,nq-q6915606477668963399,therefore,True,judge,Correct
+natural_questions,nq-q6915606477668963399,"""therefore""",True,judge,Correct
+natural_questions,nq-q6915606477668963399,Therefore,True,judge,Correct
+natural_questions,nq-q6915606477668963399,"Other authors in the eighteenth century also used three dots in a triangle shape to signify ""therefore,""",True,judge,Correct
+natural_questions,nq-q-143054837169120955,Northern California,True,judge,Correct
+natural_questions,nq-q-143054837169120955,along the coast of northern California,True,judge,Correct
+natural_questions,nq-q-143054837169120955,Del Norte and Humboldt Counties,True,judge,Correct
+natural_questions,nq-q-143054837169120955,northern California coast,True,judge,Correct
+natural_questions,nq-q-143054837169120955,"Humboldt County & Del Norte County, California, US",True,judge,Correct
+natural_questions,nq-q-143054837169120955,Redwood National and State Parks,True,judge,Correct
+natural_questions,nq-q8823076125131408628,Justin Bieber,False,judge,Incorrect
+natural_questions,nq-q8823076125131408628,George Harrison,True,rule,
+natural_questions,nq-q8823076125131408628,James Ray or George Harrison,False,judge,Incorrect
+natural_questions,nq-q8823076125131408628,James Ray,True,rule,
+natural_questions,nq-q-7073063191952855764,David Harbour,False,judge,Incorrect
+natural_questions,nq-q-7073063191952855764,Insufficient information.,False,rule,
+natural_questions,nq-q-7073063191952855764,"Bradshaw, Peter",False,judge,Incorrect
+natural_questions,nq-q-7073063191952855764,Insufficient information,False,rule,
+natural_questions,nq-q-7073063191952855764,Petyr,False,judge,Incorrect
+natural_questions,nq-q6434931911289860123,Insufficient information.,False,rule,
+natural_questions,nq-q6434931911289860123,Justin Timberlake,True,rule,
+natural_questions,nq-q8869318258439148973,Insufficient information.,False,rule,
+natural_questions,nq-q8869318258439148973,Paul McCartney,False,judge,Incorrect
+natural_questions,nq-q8869318258439148973,Coldplay,False,judge,Incorrect
+natural_questions,nq-q8869318258439148973,Justin Timberlake,True,rule,
+natural_questions,nq-q8869318258439148973,Lady Gaga,False,judge,Incorrect
+natural_questions,nq-q8986775680996674901,1951-1952,True,judge,Correct
+natural_questions,nq-q8986775680996674901,Insufficient information.,False,rule,
+natural_questions,nq-q8986775680996674901,1951–52,True,rule,
+natural_questions,nq-q8986775680996674901,1951 -- 52,True,judge,Correct
+natural_questions,nq-q1656745334095178455,Identifying alternatives,False,judge,Incorrect
+natural_questions,nq-q1656745334095178455,goal definition,False,judge,Incorrect
+natural_questions,nq-q1656745334095178455,Identifying the decision criteria that will be important in solving the problem.,False,judge,Incorrect
+natural_questions,nq-q1656745334095178455,information gathering,False,judge,Incorrect
+natural_questions,nq-q1656745334095178455,"goal definition, information gathering",False,judge,Incorrect
+natural_questions,nq-q1656745334095178455,Generate all possible solutions,False,judge,Incorrect
+natural_questions,nq-q1656745334095178455,Defining the problems and / or goals,False,judge,Incorrect
+natural_questions,nq-q1656745334095178455,Identification of alternative plans / policies,False,judge,Incorrect
+natural_questions,nq-q1656745334095178455,Identify alternative plans / policies,False,judge,Incorrect
+natural_questions,nq-q1656745334095178455,Identifying problems,False,judge,Incorrect
+natural_questions,nq-q1656745334095178455,Generate all possible solutions (edit),False,judge,Incorrect
+natural_questions,nq-q-222467023790836304,4.0 inches,True,judge,Correct
+natural_questions,nq-q-222467023790836304,Insufficient information.,False,rule,
+natural_questions,nq-q-222467023790836304,4 in,True,rule,
+natural_questions,nq-q-222467023790836304,4 inches,True,judge,Correct
+natural_questions,nq-q-6651263409055988535,South Carolina,True,rule,
+natural_questions,nq-q-6651263409055988535,Insufficient information.,False,rule,
+natural_questions,nq-q-6651263409055988535,South Carolina Gamecocks,True,judge,Correct
+natural_questions,nq-q-6651263409055988535,Insufficient information,False,rule,
+natural_questions,nq-q-3338814091736968765,Birth,False,judge,Incorrect
+natural_questions,nq-q-3338814091736968765,Under normal conditions,False,judge,Incorrect
+natural_questions,nq-q-3338814091736968765,spontaneously,True,rule,
+natural_questions,nq-q-3338814091736968765,Insufficient information.,False,rule,
+natural_questions,nq-q-3338814091736968765,"Under normal conditions, electrical activity is spontaneously generated by the SA node",True,judge,Correct
+natural_questions,nq-q-3338814091736968765,Insufficient information,False,rule,
+natural_questions,nq-q6421988180326309644,Insufficient information.,False,rule,
+natural_questions,nq-q6421988180326309644,Insufficient information,False,rule,
+natural_questions,nq-q6421988180326309644,Eva Green,True,rule,
+natural_questions,nq-q6421988180326309644,Caitlin Carmichael or Jade Chynoweth,False,judge,Incorrect
+natural_questions,nq-q-7521086178060626112,Sperm and egg cells,True,judge,Correct
+natural_questions,nq-q-7521086178060626112,gametes,True,judge,Correct
+natural_questions,nq-q-7521086178060626112,Gametes (sperm or egg cells),True,judge,Correct
+natural_questions,nq-q-7521086178060626112,gametes (sperm or egg cells),True,judge,Correct
+natural_questions,nq-q-7521086178060626112,gametes (egg and sperm),True,judge,Correct
+natural_questions,nq-q-7521086178060626112,gametes (sperm and egg cells),True,judge,Correct
+natural_questions,nq-q867176429412490099,Robber Barons,True,rule,
+natural_questions,nq-q867176429412490099,Insufficient information.,False,rule,
+natural_questions,nq-q867176429412490099,Insufficient information,False,rule,
+natural_questions,nq-q867176429412490099,Robber baron,True,rule,
+natural_questions,nq-q9027116721747088541,Jeff Zucker,False,judge,Incorrect
+natural_questions,nq-q9027116721747088541,Ryan Seacrest,False,judge,Incorrect
+natural_questions,nq-q9027116721747088541,Jonathan Cheban,True,rule,
+natural_questions,nq-q-2321556715412254267,Insufficient information.,False,rule,
+natural_questions,nq-q-2321556715412254267,Mynydd Graig Goch,False,judge,Incorrect
+natural_questions,nq-q-2321556715412254267,Ffynnon Garw / The Garth,False,judge,Incorrect
+natural_questions,nq-q-2321556715412254267,Films set in Wales,False,judge,Incorrect
+natural_questions,nq-q-2321556715412254267,Ffynnon Garw or The Garth,False,judge,Incorrect
+natural_questions,nq-q-2321556715412254267,Llanrhaeadr - ym - Mochnant and Llansilin in Powys,True,judge,Correct
+natural_questions,nq-q-2321556715412254267,"Ffynnon Garw, The Garth, Llanrhaeadr - ym - Mochnant, Llansilin",True,judge,Correct
+natural_questions,nq-q6787462403220370958,Insufficient information.,False,rule,
+natural_questions,nq-q6787462403220370958,The site of the team holding the home advantage across the series.,False,judge,Incorrect
+natural_questions,nq-q6787462403220370958,Insufficient information,False,rule,
+natural_questions,nq-q6787462403220370958,Dodger Stadium,True,judge,Correct
+natural_questions,nq-q6787462403220370958,The game is generally played at the site of the team holding the home advantage across the series.,False,judge,Incorrect
+natural_questions,nq-q6787462403220370958,"Dodger Stadium in Los Angeles, California",True,judge,Correct
+natural_questions,nq-q5341150184415317980,Indian National Congress,False,judge,Incorrect
+natural_questions,nq-q5341150184415317980,Zamindari Association,False,judge,Incorrect
+natural_questions,nq-q5341150184415317980,Insufficient information.,False,rule,
+natural_questions,nq-q5341150184415317980,British Indian Association,True,judge,Correct
+natural_questions,nq-q5341150184415317980,East India Company,False,judge,Incorrect
+natural_questions,nq-q5341150184415317980,British India Society,False,judge,Incorrect
+natural_questions,nq-q7916785921956044047,Insufficient information.,False,rule,
+natural_questions,nq-q7916785921956044047,"Navaratnam, Dinny",True,judge,Correct
+natural_questions,nq-q7916785921956044047,Insufficient information,False,rule,
+natural_questions,nq-q7916785921956044047,Daw soars and Eddie electrifies,False,judge,Incorrect
+natural_questions,nq-q7916785921956044047,Daniher,True,judge,Correct
+natural_questions,nq-q7916785921956044047,Daw and Eddie,False,judge,Incorrect
+natural_questions,nq-q5035306782925064813,Insufficient information.,False,rule,
+natural_questions,nq-q5035306782925064813,"Malibu, California",True,rule,
+natural_questions,nq-q5035306782925064813,Insufficient information,False,rule,
+natural_questions,nq-q-2021635769470517666,Insufficient information.,False,rule,
+natural_questions,nq-q-2021635769470517666,Virginia Tech,True,rule,
+natural_questions,nq-q-2021635769470517666,Insufficient information,False,rule,
+natural_questions,nq-q-2021635769470517666,UMBC,True,rule,
+natural_questions,nq-q-2021635769470517666,Cincinnati and Tennessee,False,judge,Incorrect
+natural_questions,nq-q-2021635769470517666,Notre Dame,False,judge,Incorrect
+natural_questions,nq-q8196940260721089488,Theodore Roosevelt,False,judge,Incorrect
+natural_questions,nq-q8196940260721089488,Gerald Ford,True,rule,
+natural_questions,nq-q8196940260721089488,Gerald R. Ford,True,judge,Correct
+natural_questions,nq-q8624898251093284247,Hudson River,False,judge,Incorrect
+natural_questions,nq-q8624898251093284247,Harlem River,True,rule,
+natural_questions,nq-q8624898251093284247,The Harlem River,True,rule,
+natural_questions,nq-q8350528572960416643,Insufficient information.,False,rule,
+natural_questions,nq-q8350528572960416643,A player has taken two hat - tricks in the same Test match only once.,False,judge,Incorrect
+natural_questions,nq-q8350528572960416643,Courtney Walsh,False,judge,Incorrect
+natural_questions,nq-q8350528572960416643,Jimmy Matthews,True,rule,
+natural_questions,nq-q7439208340888264395,Insufficient information.,False,rule,
+natural_questions,nq-q7439208340888264395,10 Stigwood Avenue,True,judge,Correct
+natural_questions,nq-q7439208340888264395,"Brooklyn, New York",True,rule,
+natural_questions,nq-q7439208340888264395,Insufficient information,False,rule,
+natural_questions,nq-q7439208340888264395,10 St. Luke's Place near 7th Avenue in Manhattan's Greenwich Village,False,judge,Incorrect
+natural_questions,nq-q7439208340888264395,"Brooklyn Heights, New York, at 10 Stigwood Avenue",True,judge,Correct
+natural_questions,nq-q7439208340888264395,Manhattan's Greenwich Village at 10 Leroy Street / 10 St. Luke's Place,False,judge,Incorrect
+natural_questions,nq-q5209333152825126410,Insufficient information.,False,rule,
+natural_questions,nq-q5209333152825126410,She 's going to change the world,False,judge,Incorrect
+natural_questions,nq-q5209333152825126410,She's going to change the world,False,judge,Incorrect
+natural_questions,nq-q5209333152825126410,Yes,False,judge,Incorrect
+natural_questions,nq-q-8581011797354123346,Insufficient information.,False,rule,
+natural_questions,nq-q-8581011797354123346,"Daredevil, Jessica Jones, Luke Cage, Iron Fist, The Defenders, The Punisher",True,judge,Correct
+natural_questions,nq-q-8581011797354123346,"2.1, 2.2, 2.3, 2.4, 2.5, 2.6",False,judge,Incorrect
+natural_questions,nq-q-8581011797354123346,"Daredevil, Jessica Jones, Luke Cage, The Defenders, The Punisher",False,judge,Incorrect
+natural_questions,nq-q-8581011797354123346,"Daredevil, Jessica Jones, Luke Cage, Iron Fist, The Defenders, The Punisher, Runaways",False,judge,Incorrect
+natural_questions,nq-q-8581011797354123346,"Daredevil, Jessica Jones, Luke Cage, Iron Fist, The Defenders",False,judge,Incorrect
+natural_questions,nq-q-7098974543435369122,Granite,False,judge,Incorrect
+natural_questions,nq-q-7098974543435369122,"jangle pop, college rock",False,judge,Incorrect
+natural_questions,nq-q-7098974543435369122,jangle pop or college rock,False,judge,Incorrect
+natural_questions,nq-q-7098974543435369122,Heartland rock,False,judge,Incorrect
+natural_questions,nq-q-7098974543435369122,"Jangle pop, college rock, Gothic rock",False,judge,Incorrect
+natural_questions,nq-q-7098974543435369122,Alternative rock,True,rule,
+natural_questions,nq-q-7098974543435369122,alternative rock,True,rule,
+natural_questions,nq-q-7098974543435369122,Gothic rock,False,judge,Incorrect
+natural_questions,nq-q-7098974543435369122,"Jangle pop, college rock, Gothic rock, indie pop, dream pop, shoegaze",False,judge,Incorrect
+natural_questions,nq-q-7098974543435369122,hardcore or Oi!,False,judge,Incorrect
+natural_questions,nq-q-7475618662654372287,Scythe,True,rule,
+natural_questions,nq-q591945965305115151,Stephen Curry,False,judge,Incorrect
+natural_questions,nq-q591945965305115151,Insufficient information.,False,rule,
+natural_questions,nq-q591945965305115151,Kareem Abdul-Jabbar,False,judge,Incorrect
+natural_questions,nq-q591945965305115151,Ray Allen,True,rule,
+natural_questions,nq-q-1370486447842329054,Metallica,False,judge,Incorrect
+natural_questions,nq-q-1370486447842329054,Warren Zevon,True,rule,
+natural_questions,nq-q-2609190921911067088,Tom Robinson,True,rule,
+natural_questions,nq-q2921083046057632317,Endothelium,False,judge,Incorrect
+natural_questions,nq-q2921083046057632317,columnar cells,False,judge,Incorrect
+natural_questions,nq-q2921083046057632317,Simple epithelium,True,judge,Correct
+natural_questions,nq-q2921083046057632317,Simple,False,judge,Incorrect
+natural_questions,nq-q2921083046057632317,Insufficient information.,False,rule,
+natural_questions,nq-q2921083046057632317,Insufficient information,False,rule,
+natural_questions,nq-q2921083046057632317,Keratinocytes,False,judge,Incorrect
+natural_questions,nq-q2921083046057632317,Retinal pigment epithelium,True,judge,Correct
+natural_questions,nq-q2921083046057632317,columnar,False,judge,Incorrect
+natural_questions,nq-q2921083046057632317,Epithelium,True,rule,
+natural_questions,nq-q2921083046057632317,stratified squamous,True,judge,Correct
+natural_questions,nq-q2921083046057632317,Pith,False,judge,Incorrect
+natural_questions,nq-q2921083046057632317,Simple columnar,True,judge,Correct
+natural_questions,nq-q2921083046057632317,basale,False,judge,Incorrect

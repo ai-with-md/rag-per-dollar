@@ -10,7 +10,7 @@
 
 ## The study
 
-A fixed grid of 54 configurations, every combination of the levels below. All 54 are scored on retrieval. Answers are generated for 24 of them (128 and 512 tokens, keyword search and bge-base), to keep the local answer run near 7.5 hours.
+A fixed grid of 54 configurations, every combination of the levels below. All 54 are scored on retrieval. Answers are generated for 24 of them (128 and 512 tokens, keyword search and bge-base), which kept the local answer run to about 9 hours.
 
 | Choice | Levels |
 |---|---|
@@ -27,6 +27,8 @@ Answers come from one model, Gemma 4 E4B, run locally. Configurations are scored
 |---|---|
 | [01](notebooks/01_data_and_floors.ipynb) | What are we testing, and how far does guessing get? |
 | [02](notebooks/02_retrieval.ipynb) | Which configurations find the evidence? |
+| [03](notebooks/03_answers.ipynb) | How often are the answers right? |
+| [04](notebooks/04_retrieval_vs_answers.ipynb) | Do retrieval scores predict the answers? |
 
 ## Data
 
@@ -45,6 +47,11 @@ source .venv/bin/activate
 pip install -e ".[run,notebooks,dev]" evalsize
 python scripts/download_data.py
 python scripts/build_retrieval.py   # about 6 hours on an Apple M4
+ollama pull gemma4:e4b-it-qat
+ollama pull gemma4:12b-it-qat
+python scripts/run_answers.py multihop_rag        # 5.3 hours, needs Ollama running
+python scripts/run_answers.py natural_questions   # 3.8 hours
+python scripts/grade_answers.py multihop_rag natural_questions   # about 11 minutes
 jupyter notebook notebooks/
 ```
 
@@ -53,11 +60,11 @@ Run the tests with `pytest`. They need no downloaded data or models.
 ## Layout
 
 ```
-ragdecisions/   small helpers: data loading, chunking, text matching, the fixed grid, chart style
+ragdecisions/   small helpers: data loading, chunking, text matching, grading, the fixed grid, chart style
 notebooks/      one notebook per question, outputs saved
 plans/          the analysis plan, written before any answers
-results/        the fixed question and answer samples, per-question retrieval scores and timings
+results/        the fixed samples, retrieval scores, timings, generated answers, grades and the hand check
 tests/          unit tests, run on every push
 docs/figures/   charts used in this README
-scripts/        data download, retrieval, and answer generation
+scripts/        data download, retrieval, answer generation and grading
 ```
